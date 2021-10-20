@@ -111,7 +111,7 @@ edx-ace==1.3.1
     # via -r requirements/base.in
 edx-auth-backends==4.0.0
     # via -r requirements/base.in
-edx-credentials-themes @ git+https://github.com/edx/credentials-themes.git@0.1.87
+edx-credentials-themes @ git+https://github.com/edx/credentials-themes.git@0.1.92
     # via -r requirements/base.in
 edx-django-release-util==1.1.0
     # via -r requirements/base.in
@@ -194,7 +194,7 @@ pyjwt[crypto]==2.3.0
     #   edx-drf-extensions
     #   edx-rest-api-client
     #   social-auth-core
-pymongo==3.12.0
+pymongo==3.12.1
     # via edx-opaque-keys
 pyparsing==2.4.7
     # via packaging
