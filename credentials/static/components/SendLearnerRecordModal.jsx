@@ -154,7 +154,7 @@ class SendLearnerRecordModal extends React.Component {
             </ModalDialog.CloseButton>
             <Button
               key="send"
-              buttonType="primary"
+              buttontype="primary"
               onClick={this.callSendHandler}
               disabled={this.state.numCheckedOrganizations <= 0}
               variant="primary"

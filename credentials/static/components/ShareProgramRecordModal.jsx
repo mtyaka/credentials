@@ -177,7 +177,7 @@ class ShareProgramRecordModal extends React.Component {
                       <Form.Control
                         value={programRecordUrl}
                         name="program-record-share-url"
-                        className={['program-record-share-url']}
+                        className="program-record-share-url"
                         label={<span className="sr-only">{gettext('Program Record URL')}</span>}
                         readOnly
                       />
