@@ -549,3 +549,7 @@ LOGO_POWERED_BY_OPEN_EDX_URL = "https://edx-cdn.org/v3/prod/open-edx-tag.svg"
 # .. toggle_creation_date: 2021-08-10
 USE_LEARNER_RECORD_MFE = False
 LEARNER_RECORD_MFE_RECORDS_PAGE_URL = ""
+
+
+# Latest version of django-history tables adds indexing on history_date field. It can be disable using this flag.
+SIMPLE_HISTORY_DATE_INDEX = False
