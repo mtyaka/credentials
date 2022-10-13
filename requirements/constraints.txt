@@ -19,3 +19,6 @@ django-hijack<3.0.0
 # The update to pyyaml 6.x failed as docker-compose wants <6,>=3.10. Pinning to <6.0. This constraint will be
 # re-evaluated as part of MICROBA-1556.
 pyyaml<6.0
+
+
+django-simple-history<=3.1.1
